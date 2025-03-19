@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Libre Baskerville", serif;
+    
+}
+body{
+    background-color: #1e1e1e;
+    color: #cfcfcf;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    color: #f46c23;
+    margin-bottom: 20px;
+
+}
+
+#mood-container{
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #979191;
+    
+}
+ button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f07735;
+    color: #1e1e1e;
+    font-size: 1 rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: #e8ba8b;
+
+}
+
+#moodLog{
+    width:22%;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+#moodLog p{
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:600px){
+    h1{
+        font-weight: 300;
+    }
+    
+    button{
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    #moodLog{
+        font-size: 0.9rem;
+    }
+}
+

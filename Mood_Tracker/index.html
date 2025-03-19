@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+   
+    <h1>Mood Tracker</h1>
+    <div id="mood-container">
+        <label for="mood">How are you feeling today?</label>
+        <select name="mood" id="mood">
+            <option value="Happy 😊">😊</option>
+            <option value="Sad 😥">😥</option>
+            <option value="Excited 🤩">🤩</option>
+            <option value="Neutral 😐">😐</option>
+            <option value="Angry 😡">😡</option>
+        </select>       
+        <button id="logMood">Log Mood </button>
+        <button id="history">History</button>
+        <button id="deleteLogs">Delete All</button>
+    </div>
+          
+    <div  id="moodLog" style="display: none;"></div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
