@@ -30,7 +30,7 @@ body{
 
 h1{
     font-size: 46px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .container p{
@@ -92,10 +92,15 @@ button:active{
     .container {
         padding: 12px;
         margin: 0px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
     }
 
     h1 {
-        font-size:19px;
+        font-size:28px;
     }
 
     .container p {
@@ -103,7 +108,7 @@ button:active{
     }
 
     button {
-        padding: 3px 6px;
+        padding: 4px 6px;
         font-size: 9px;
     }
 }
