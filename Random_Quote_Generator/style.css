@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #1e1e1e;
+    color: #f27e09;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.container{
+    background-color:  #2a2a2a;
+    padding: 20px;
+    margin: 0 30%;
+    border-radius: 5px;
+    
+}
+
+h1{
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.container p{
+    font-size: 16px;
+    font-style: italic;
+    background-color:#3c3939;
+    color: #f5f6f7;
+    border-radius: 5px;
+    margin: 20px;
+    word-wrap: break-word;
+    font-family: "Libre Baskerville", serif;
+    line-height: 25px;
+    background: rgba(255, 255, 255, 0.212);
+    backdrop-filter: blur(5px);
+}
+
+button{
+    background-color: #ecaa68;
+    color: #1e1e1e;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #f27e09;
+}
+
+button:active{
+    background-color:#f5cca3 ;
+}
+
+
+/* For responsive styling */
+@media (max-width: 768px) {
+    .container {
+        margin: 0 30%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .container p{
+        font-size: 16px;
+    }
+
+    button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size:28px;
+    }
+
+    .container p {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 3px 6px;
+        font-size: 9px;
+    }
+}
