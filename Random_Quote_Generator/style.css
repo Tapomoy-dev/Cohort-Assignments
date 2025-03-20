@@ -70,7 +70,7 @@ button:active{
 /* For responsive styling */
 @media (max-width: 768px) {
     .container {
-        margin: 0 30%;
+        margin: 0 10%;
         padding: 20px;
     }
 
@@ -91,14 +91,15 @@ button:active{
 @media (max-width: 480px) {
     .container {
         padding: 12px;
+        margin: 0px 5%;
     }
 
     h1 {
-        font-size:28px;
+        font-size:19px;
     }
 
     .container p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     button {
