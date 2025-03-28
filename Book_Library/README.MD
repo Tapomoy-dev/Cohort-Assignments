@@ -25,7 +25,7 @@ A simple web application for listing and filtering books.
 ![Grid View](./screenshots/grid-view.png)Grid View
 
 # Live Link
-Get a live demo **[here](https://book-library-ki011v992-tapomoys-projects.vercel.app/)**.
+Get a live demo **[here](https://book-library-nyr3vwuim-tapomoys-projects.vercel.app/)**.
 
 # Languages Used
 * HTML
