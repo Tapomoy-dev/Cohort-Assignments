@@ -16,9 +16,9 @@ let isGridView = false;
 
 
 // fetching data from api
-async function fetchbooks(){
+async function fetchbooks(page=1){
     try {
-        const response =await fetch (`${API_URL}`);
+        const response =await fetch (`${API_URL}?page=${page}`);
 
         if (!response.ok){
             throw new Error("Network error:"+ response.status);
