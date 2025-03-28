@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Books Hub</h1>
+
+    <div class="section1">
+        <input type="text" id="searchBar" placeholder="Enter book title">
+        <div class="btns">
+            <button id="sortByLetter">Sort A-Z</button>
+            <button id="sortByDate">Sort By Date</button>
+            <button id="toggleBtn">Grid View</button>
+        </div>
+    </div>
+
+    <div class="listView" id="booksContainer"></div>
+
+    <div class="pageNavigation">
+        <button id="prevPage" disabled>◀</button>
+        <span id="pageInfo">Page 1</span>
+        <button id="nextPage">▶</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
